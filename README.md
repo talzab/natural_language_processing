@@ -1,20 +1,13 @@
 # Music and Emotions: Unraveling the Connection
 
-## **Introduction**:
+## **Introduction**: 
+This study, employing Natural Language Processing (NLP), delves into the intricate relationship between music and human emotions, examining diverse emotional responses to different musical genres, exploring music's profound influence on human existence, and presenting key findings in a comprehensive report.
 
-This study aims to explore the intricate relationship between music and human emotions, delving into the diverse emotional responses evoked by various musical genres. Music's profound influence on human existence, capable of forging deep connections with our innermost sentiments, propels our investigation. Within this report, we present a comprehensive overview of our research methodologies, key findings, and a captivating exploration at the nexus of music and emotions.
-
-## **Data**:
-
-For our linguistic analysis, we have utilized song lyrics sourced from Genius.com, a crowd-sourced lyrics website. The dataset encompasses various attributes, including genre, artist, web page views, lyrics, and release year. However, our analysis hones in on the 'genre' and 'lyrics' attributes to scrutinize sentiment variations across music genres. To maintain relevance, we have confined our focus to songs released after 1900. Further details about the lyrics corpus are available in Table 1.
+## **Data**: 
+We conducted linguistic analysis using Genius.com song lyrics, focusing on the 'genre' and 'lyrics' attributes to examine sentiment variations across music genres in songs released after 1900, as shown in Figure 1.
 
 ## **Methods**:
-
-In the initial stages of our study, data underwent rigorous cleaning and filtering to enhance its quality and relevance. The decision to concentrate exclusively on the genres of country, rap, rhythm and blues, pop, and rock stems from their societal significance and well-defined characteristics. Refer to Table 2 for insights into song frequency and tokens across these genres.
-
-Our text tokenization process dissects lyrics into individual words, preceded by the removal of common stopwords. A word cloud visualization (Table 3) offers an encompassing overview of frequently occurring terms across all genres. To evaluate lexical diversity, we calculated distinct word counts for each genre, shedding light on lyrical composition. Our Term Frequency-Inverse Document Frequency (TF-IDF) analysis precisely pinpoints significant words, providing genre-specific insights into lyrical traits. Concurrently, sentiment analysis, utilizing Bing and NRC lexicons, categorizes word sentiments as either positive or negative.
-
-These methodologies adhere to best practices in text analysis and statistical rigor, ensuring meticulous data preparation, extraction of meaningful insights, and a comprehensive evaluation of statistical significance within music genres.
+In the study's initial phases, we rigorously cleaned and filtered data for enhanced quality, focusing on country, rap, rhythm and blues, pop, and rock genres due to their societal significance. Insights into song frequency and tokens across these genres are detailed in Figure 2. Our text tokenization, word cloud visualization (Table 3), lexical diversity analysis, Term Frequency-Inverse Document Frequency (TF-IDF) analysis, and sentiment analysis adhere to best practices, ensuring meticulous data preparation and a comprehensive evaluation of statistical significance within music genres.
 
 ## **Results**:
 
